@@ -3,6 +3,7 @@ const http=require('http');
 const { text, json } = require('stream/consumers');
 const url=require('url');
 const replaceTemplate = require('./modules/replaceTemplate');
+const port = process.env.PORT || 8000;
 //---------------------------------------------------------------
 //---------------------------------------------------------------
 
